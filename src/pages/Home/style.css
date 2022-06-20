@@ -1,0 +1,41 @@
+.container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.container h1{
+  margin: 8.4rem 0 2.4rem;
+}
+
+.container input{
+  width: 25rem;
+  padding: .8rem;
+  margin: .5rem;
+  background: #e6e6e6;
+  border-radius: .5rem;
+  border: none;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.container button{
+  width: 25rem;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+
+  background: #3ba7f9;
+  color: white;
+  border: none;
+  border-radius: .5rem;
+
+  cursor: pointer;
+  transition: filter 0.2s;
+}
+
+.container button:hover{
+  filter: brightness(0.9);
+  border: none
+}
